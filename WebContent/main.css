@@ -1,8 +1,15 @@
+span {
+	color				: #f3989b !important; 
+}
 /*--------------------*/
 /*  Header Settting   */
 /*--------------------*/
+header  div  ul  li  a{
+	text-decoration		: none;
+}
 header {
 	background-color	: #78ADC9 !important;
+	height				: 30px;
 }
 header .brand-logo {
 	font-weight			: bold;  
@@ -11,12 +18,22 @@ header .brand-logo {
   	float 				: left;
 }
 header div ul {
-	
+	/*float				: right;*/
 }
-header div ul li{
+header div ul li {
 	display				: inline;
 	text-align			: right;
 }
-span {
-	color				: #f3989b !important; 
+header  div  ul  li  a{
+	text-decoration		: none;
+	font-family: "Roboto",sans-serif;
+  	font-size: 14px;
+  	font-weight: 500;
+  	line-height: 14px;
+  	padding: 25px 20px;
+  	text-transform: uppercase;
+  	-webkit-transition: all 0.3s ease-out 0s;
+  	-ms-transition: all 0.3s ease-out 0s;
+  	-o-transition: all 0.3s ease-out 0s;
+  	transition: all 0.3s ease-out 0s;
 }
