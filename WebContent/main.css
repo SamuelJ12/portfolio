@@ -1,3 +1,22 @@
+/*--------------------*/
+/*  Header Settting   */
+/*--------------------*/
 header {
-  background-color: #78ADC9;
+	background-color	: #78ADC9 !important;
+}
+header .brand-logo {
+	font-weight			: bold;  
+  	text-transform		: uppercase;
+  	text-decoration		: none;
+  	float 				: left;
+}
+header div ul {
+	
+}
+header div ul li{
+	display				: inline;
+	text-align			: right;
+}
+span {
+	color				: #f3989b !important; 
 }
