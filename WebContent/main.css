@@ -2,7 +2,9 @@
 /*  General Settting  */
 /*--------------------*/
 body{
-	background-color	: #8080c0;
+	background-image	: url("rain.jpg");
+	background-repeat	: no-repeat;
+	background-size		: 100% 100%;
 }
 span {
 	color				: #f3989b !important; 
@@ -16,10 +18,15 @@ a {
 /*  Header Settting   */
 /*--------------------*/
 header {
-    background-color	: #78ADC9 !important;
+    background-color	: #78ADC9;
 	height				: 45px;
 	margin				: 0px 0px 0px 0px;
 	position			: relative;
+	width				: 75%;
+	margin-left			: auto;
+	margin-right		: auto;
+	diplay				: block;
+	vertical-align		: middle;
 }
 header .brand-logo {
 	font-weight			: bold;
@@ -54,10 +61,6 @@ header ul li a{
   	line-height			: 14px;
   	padding				: 25px 20px;
   	text-transform		: uppercase;
-  	-webkit-transition	: all 0.3s ease-out 0s;
-  	-ms-transition		: all 0.3s ease-out 0s;
-  	-o-transition		: all 0.3s ease-out 0s;
-  	transition			: all 0.3s ease-out 0s;
 }
 header ul li a:hover{
 	background-color	: #8080c0;
@@ -66,3 +69,6 @@ header ul li a:hover{
 header ul li a:visited{
 	color				: #fff;
 }
+/*--------------------*/
+/*    Main Settting   */
+/*--------------------*/
